@@ -1,0 +1,17 @@
+POST http://localhost:4009/api/greet
+content-type: application/json
+
+{
+	"language" : "xhosa",
+	"greeting" : "Molo"
+}
+
+{
+	"language" : "IsiZulu",
+	"greeting" : "Sawubona"
+}
+
+{
+	"language" : "english",
+	"greeting" : "Hello"
+}
